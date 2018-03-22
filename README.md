@@ -1,24 +1,23 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+application that communicates with an api to search phrases of chuck norris.
+search options:
+* Query
+*Category
+* Random
 
-Things you may want to cover:
+You have the search you can send an email with the latest results.
 
-* Ruby version
+Specifications: 
 
-* System dependencies
+* Ruby version: 2.3.1p112
 
-* Configuration
+* Run dependencies: bundle install
 
-* Database creation
+# To run the app:
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+"
+Bundle insatll;
+rake db:create db:migrate;
+rails s
+"
