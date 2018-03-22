@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
+    root 'pages#index'
 	get "/", to: "pages#index"
 	get "/search", to: "chucks#search"
 	get "/search-by-category", to: "chucks#search_by_category"
