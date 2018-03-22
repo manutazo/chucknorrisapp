@@ -3,7 +3,7 @@
 application that communicates with an api to search phrases of chuck norris.
 search options:
 * Query
-*Category
+* Category
 * Random
 
 You have the search you can send an email with the latest results.
@@ -16,12 +16,13 @@ Specifications:
 
 # To run the app:
 
-"
-Bundle insatll;
+
+```
+Bundle install;
 rake db:create db:migrate;
 rails s
-"
+```
 
-#Preview
+# Preview
 
 https://chucknorrisappchalleng.herokuapp.com/
