@@ -21,3 +21,7 @@ Bundle insatll;
 rake db:create db:migrate;
 rails s
 "
+
+#Preview
+
+https://chucknorrisappchalleng.herokuapp.com/
